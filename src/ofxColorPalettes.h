@@ -50,7 +50,7 @@ public:
 		dir.allowExt("tiff");
 		
 		dir.listDir(directoryURL);
-		dir.sort(); 
+		//dir.sort();
 		
 		for(int i = 0; i < (int)dir.size(); i++)
 		{
